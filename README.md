@@ -5,7 +5,7 @@
 - Trên môi trường Linux: `sudo docker compose up`
 2. Truy cập vào container 
 - Dùng lệnh `sudo docker ps` tìm id của container airflow-worker
-- Dùng lệnh `sudo docker exec -it -u airlfow container_id_airflow_worker bash`
+- Dùng lệnh `sudo docker exec -it -u root container_id_airflow_worker bash`
 3. Thiết lập time-zone múi giờ thứ 7 `ln -sf /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime`
 4. Truy cập thư mục `cd /opt/airflow/Python`
 5. Thiết lập môi trường ảo `python -m venv my_project`
