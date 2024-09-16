@@ -24,7 +24,7 @@ if __name__ == "__main__":
     current_date = datetime.now().strftime("%Y/%m/%d")
     
     # Đường dẫn file local
-    local_file_path = f'./files/{current_date}/photos.csv.gz'
+    local_file_path = f'../files/{current_date}/photos.csv.gz'
     
     # Tên bucket trong Google Cloud Storage
     bucket_name = 'dateengineertest'  # Thay bằng tên bucket của bạn

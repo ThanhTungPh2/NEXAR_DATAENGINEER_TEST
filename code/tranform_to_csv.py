@@ -27,12 +27,12 @@ def compress_csv_to_gzip(csv_file, gzip_file):
 
 # Thực thi chuyển đổi và nén
 if __name__ == "__main__":
-    ndjson_file = f'./files/{current_date}/photos.ndjson'
-    csv_file = f'./files/{current_date}/photos.csv'
+    ndjson_file = f'../files/{current_date}/photos.ndjson'
+    csv_file = f'../files/{current_date}/photos.csv'
     convert_ndjson_to_csv(ndjson_file, csv_file)
     print(f"Converted {ndjson_file} to {csv_file}")
 
     # Nén file CSV với gzip
-    gzip_file = f'./files/{current_date}/photos.csv.gz'
+    gzip_file = f'../files/{current_date}/photos.csv.gz'
     compress_csv_to_gzip(csv_file, gzip_file)
     print(f"Compressed {csv_file} to {gzip_file}")

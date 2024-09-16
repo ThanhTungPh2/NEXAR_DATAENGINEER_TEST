@@ -10,6 +10,7 @@ def python_run(file_name):
     command = (
         "cd /opt/airflow/Python/ && " +
         ". my_project/bin/activate && " +
+        "cd code && " +
         "python " + file_name
     )
     return command
@@ -31,19 +32,19 @@ with DAG(
     # Call api
     call_api = BashOperator(
         task_id='call_api',
-        bash_command=python_run('a.py'),
+        bash_command=python_run('call_api.py'),
     )
     tranform_to_csv = BashOperator(
         task_id='tranform_csv',
-        bash_command=python_run('b.py'),
+        bash_command=python_run('tranform_to_csv.py'),
     )
     up_load = BashOperator(
         task_id='up_load',
-        bash_command=python_run('c.py'),
+        bash_command=python_run('up_load.py'),
     )
     insert_table = BashOperator(
         task_id='insert_table',
-        bash_command=python_run('d.py'),
+        bash_command=python_run('insert_table.py'),
     )
     # Các task đầu và cuối
     start = EmptyOperator(task_id="start")

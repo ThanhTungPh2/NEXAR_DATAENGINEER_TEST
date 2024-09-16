@@ -55,7 +55,7 @@ if __name__ == "__main__":
     
     # Tạo đường dẫn theo ngày hiện tại
     current_date = datetime.now().strftime('%Y/%m/%d')
-    filename = f'./files/{current_date}/photos.ndjson'
+    filename = f'../files/{current_date}/photos.ndjson'
     
     # Lưu kết quả vào file JSON NDJSON với định dạng ngày
     save_to_ndjson(all_photos, filename)
