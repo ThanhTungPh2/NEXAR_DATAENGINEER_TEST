@@ -1,4 +1,9 @@
 ## Hướng dẫn cài đặt
+
+**Ở đây em không thể cung cấp file cấu hình IAM của Google Cloud được vì đây là tài khoản cá nhân**. Nếu bên công ty có test thì có thể đặt file config theo như hình ảnh hoặc như video em cung cấp.
+
+![image](https://github.com/user-attachments/assets/f3a1707b-2378-40ce-bb37-8c18286d36e5)
+
 Đối với chạy chương trình trên môi trường Linux thì trước câu lệnh có từ khóa `sudo` hoặc dùng `sudo -i` để chuyển sang user root
 1. Khởi chạy docker-compose
 - Trên môi trường Windows: `docker-compose up`
