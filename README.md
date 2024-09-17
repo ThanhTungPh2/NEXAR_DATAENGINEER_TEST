@@ -12,3 +12,19 @@
 6. Truy cập vào môi trường ảo `. my_project/bin/activate`
 7. Cài đặt thư viện python `pip install -r requirements.txt`
 8. Truy cập vào UI airflow browser `http://localhost:8080/home`
+
+## Video hướng dẫn cài đặt và demo
+[Xây dựng stack:Apache Airflow, Google Cloud Storage(GCS), BigQuery.](https://youtu.be/hl4FGbp7rMg)
+
+## Luồng dữ liệu ngày 17/09/2024 sau ngày quay video 16/07/2024
+1. API được Call về và tạo thành thư mục ngày 17
+
+ ![image](https://github.com/user-attachments/assets/b7b27fc3-7cdd-4c3f-9d45-965435c4c49a)
+
+2. File được đẩy lên GCS
+![image](https://github.com/user-attachments/assets/271fc0b6-5ef8-49d7-8e99-3de4c218d5fb)
+
+3. Trong bảng ở Bigquery có dữ liệu ngày 17/9/2024
+![image](https://github.com/user-attachments/assets/ccd17dff-d352-4e7e-92fc-18244b92bdb7)
+
+
