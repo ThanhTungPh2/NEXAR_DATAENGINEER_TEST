@@ -1,6 +1,6 @@
 ## Hướng dẫn cài đặt
 
-**Ở đây em không thể cung cấp file cấu hình IAM của Google Cloud được vì đây là tài khoản cá nhân**. Nếu bên công ty có test thì có thể đặt file config theo như hình ảnh hoặc như video em cung cấp.
+**Ở đây em không thể cung cấp file cấu hình Service Account của Google Cloud được vì đây là tài khoản cá nhân**. Nếu bên công ty có test thì có thể đặt file config theo như hình ảnh hoặc như video em cung cấp.
 
 ![image](https://github.com/user-attachments/assets/f3a1707b-2378-40ce-bb37-8c18286d36e5)
 
